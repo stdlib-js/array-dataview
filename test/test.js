@@ -50,7 +50,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'if an environment supports `DataView`, the export is an alias for `DataView`', function test( t ) {
 	var Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-dataview-support': isTrue,
+		'@stdlib/assert-has-dataview-support': isTrue,
 		'./main.js': Mock
 	});
 	t.strictEqual( Foo, Mock, 'returns builtin' );
@@ -72,7 +72,7 @@ tape( 'if an environment supports `DataView`, the export is an alias for `DataVi
 
 tape( 'if an environment does not support `DataView`, the export is a polyfill', function test( t ) {
 	var Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-dataview-support': isFalse
+		'@stdlib/assert-has-dataview-support': isFalse
 	});
 
 	t.strictEqual( Foo, polyfill, 'returns polyfill' );
