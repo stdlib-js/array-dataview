@@ -196,6 +196,13 @@ for ( i = 0; i < bytes.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/array/buffer`][@stdlib/array/buffer]: arrayBuffer.
+-   [`@stdlib/array/typed`][@stdlib/array/typed]: create a typed array.
+
 </section>
 
 <!-- /.related -->
@@ -258,6 +265,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-dataview/main/LICENSE
 
 [mdn-dataview]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView
+
+<!-- <related-links> -->
+
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
+
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
+
+<!-- </related-links> -->
 
 </section>
 
