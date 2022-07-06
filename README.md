@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-dataview
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@esm/index.mjs';
+var DataView = require( '@stdlib/array-dataview' );
 ```
 
 #### DataView( buffer\[, byteOffset\[, byteLength]] )
@@ -51,7 +67,7 @@ Returns a [`DataView`][mdn-dataview] representing a provided array buffer.
 <!-- eslint-disable stdlib/require-globals -->
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var buf = new ArrayBuffer( 5 );
 // returns <ArrayBuffer>
@@ -71,7 +87,7 @@ var dv = new DataView( buf );
 <!-- eslint-disable stdlib/require-globals -->
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var buf1 = new ArrayBuffer( 5 );
 var dv = new DataView( buf1 );
@@ -90,7 +106,7 @@ var bool = ( buf1 === buf2 );
 <!-- eslint-disable stdlib/require-globals -->
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var buf = new ArrayBuffer( 5 );
 var dv = new DataView( buf );
@@ -106,7 +122,7 @@ var byteLength = dv.byteLength;
 <!-- eslint-disable stdlib/require-globals -->
 
 ```javascript
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var buf = new ArrayBuffer( 5 );
 var dv = new DataView( buf, 3 );
@@ -143,18 +159,13 @@ TODO: document methods
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import IS_LITTLE_ENDIAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-little-endian@esm/index.mjs';
-import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@esm/index.mjs';
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@esm/index.mjs';
+```javascript
+var IS_LITTLE_ENDIAN = require( '@stdlib/assert-is-little-endian' );
+var toBinaryString = require( '@stdlib/number-uint8-base-to-binary-string' );
+var randu = require( '@stdlib/random-base-randu' );
+var Uint8Array = require( '@stdlib/array-uint8' );
+var ArrayBuffer = require( '@stdlib/array-buffer' );
+var DataView = require( '@stdlib/array-dataview' );
 
 // Create a new ArrayBuffer:
 var buf = new ArrayBuffer( 64 );
@@ -175,10 +186,6 @@ var bytes = new Uint8Array( dv.buffer );
 for ( i = 0; i < bytes.length; i++ ) {
     console.log( 'byte %d: %s', i, toBinaryString( bytes[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -217,7 +224,7 @@ for ( i = 0; i < bytes.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -281,9 +288,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/esm
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/esm
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
 <!-- </related-links> -->
 
