@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/dataview"
-click B href "https://github.com/stdlib-js/array-dataview/tree/main"
-click C href "https://github.com/stdlib-js/array-dataview/tree/production"
-click D href "https://github.com/stdlib-js/array-dataview/tree/esm"
-click E href "https://github.com/stdlib-js/array-dataview/tree/deno"
-click F href "https://github.com/stdlib-js/array-dataview/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/dataview"
+%% click B href "https://github.com/stdlib-js/array-dataview/tree/main"
+%% click C href "https://github.com/stdlib-js/array-dataview/tree/production"
+%% click D href "https://github.com/stdlib-js/array-dataview/tree/esm"
+%% click E href "https://github.com/stdlib-js/array-dataview/tree/deno"
+%% click F href "https://github.com/stdlib-js/array-dataview/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/dataview
