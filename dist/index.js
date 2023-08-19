@@ -1,4 +1,5 @@
-/*
+"use strict";var t=function(u,r){return function(){return r||u((r={exports:{}}).exports,r),r.exports}};var o=t(function(w,i){"use strict";var l=typeof DataView=="function"?DataView:void 0;i.exports=l});var s=t(function(q,a){"use strict";function p(){throw new Error("not implemented")}a.exports=p});var n=require("@stdlib/assert-has-dataview-support"),c=o(),f=s(),e;n()?e=c:e=f;module.exports=e;
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -15,12 +16,4 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
-// TypeScript Version: 4.1
-
-// EXPORTS //
-
-/**
-* Constructor which returns a data view representing a provided array buffer.
-*/
-export = DataView;
+//# sourceMappingURL=index.js.map
