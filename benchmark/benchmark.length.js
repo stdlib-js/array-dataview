@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var hasDataViewSupport = require( '@stdlib/assert-has-dataview-support' );
 var pow = require( '@stdlib/math-base-special-pow' );
 var isDataView = require( '@stdlib/assert-is-dataview' );
