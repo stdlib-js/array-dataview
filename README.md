@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@deno/mod.js';
+import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@v0.2.0-deno/mod.js';
 ```
 
 #### DataView( buffer\[, byteOffset\[, byteLength]] )
@@ -160,7 +160,7 @@ import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-b
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
-import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@deno/mod.js';
+import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@v0.2.0-deno/mod.js';
 
 // Create a new ArrayBuffer:
 var buf = new ArrayBuffer( 64 );
