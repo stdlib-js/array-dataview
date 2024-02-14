@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-dataview/tags). For example,
+
+```javascript
 import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@v0.2.0-esm/index.mjs';
 ```
 
@@ -165,7 +170,7 @@ import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-b
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@v0.2.0-esm/index.mjs';
+import DataView from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dataview@esm/index.mjs';
 
 // Create a new ArrayBuffer:
 var buf = new ArrayBuffer( 64 );
