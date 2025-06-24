@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-06-24)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f925c9c`](https://github.com/stdlib-js/stdlib/commit/f925c9cacd01012cc8a8f74eb3f45cbe69a4bbb0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
