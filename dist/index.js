@@ -1,4 +1,4 @@
-"use strict";var t=function(u,r){return function(){return r||u((r={exports:{}}).exports,r),r.exports}};var o=t(function(w,i){"use strict";var l=typeof DataView=="function"?DataView:void 0;i.exports=l});var s=t(function(q,a){"use strict";function p(){throw new Error("not implemented")}a.exports=p});var n=require("@stdlib/assert-has-dataview-support"),c=o(),f=s(),e;n()?e=c:e=f;module.exports=e;
+"use strict";var t=function(u,r){return function(){try{return r||u((r={exports:{}}).exports,r),r.exports}catch(l){throw r=0,l}}};var o=t(function(q,i){"use strict";var p=typeof DataView=="function"?DataView:void 0;i.exports=p});var s=t(function(x,a){"use strict";function n(){throw new Error("not implemented")}a.exports=n});var c=require("@stdlib/assert-has-dataview-support"),f=o(),v=s(),e;c()?e=f:e=v;module.exports=e;
 /**
 * @license Apache-2.0
 *
